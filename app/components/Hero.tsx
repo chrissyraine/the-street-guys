@@ -17,7 +17,7 @@ export default function Hero() {
     }}>
       {/* Dark overlay for readability */}
       <div
-        className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/70 to-black/80"
+        className="absolute inset-0 bg-gradient-to-r from-black/95 via-black/90 to-black/95"
       />
 
       {/* Content */}
