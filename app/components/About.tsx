@@ -39,7 +39,7 @@ export default function About() {
             </div>
             <h3 className="text-xl font-bold text-white mb-2">Ed Hopkins</h3>
             <p className="text-gray-300 mb-3">Co-Founder & Operator</p>
-            <p className="text-sm text-gray-400">Nephew to Adam. Carrying forward the vision of feeding families abundantly. Every plate reflects the standard Adam set—no shortcuts, just real food and real care.</p>
+            <p className="text-sm text-gray-400">Uncle. Carrying forward the vision of feeding families abundantly. Every plate reflects the standard Adam set—no shortcuts, just real food and real care.</p>
           </div>
 
           <div className="text-center">
