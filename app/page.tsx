@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Menu from "./components/Menu";
+import DessertShowcase from "./components/DessertShowcase";
 import WhyCater from "./components/WhyCater";
 import Contact from "./components/Contact";
 import VFWInfo from "./components/VFWInfo";
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <About />
       <Menu />
+      <DessertShowcase />
       <WhyCater />
       <Contact />
       <VFWInfo />
