@@ -9,13 +9,15 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative w-full h-screen bg-black flex items-center justify-center overflow-hidden">
-      {/* Background image or dark overlay */}
+    <section className="relative w-full h-screen flex items-center justify-center overflow-hidden" style={{
+      backgroundImage: "url('/hero.jpg')",
+      backgroundAttachment: "fixed",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+    }}>
+      {/* Dark overlay for readability */}
       <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage: "linear-gradient(135deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.9) 100%)",
-        }}
+        className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/70 to-black/80"
       />
 
       {/* Content */}
