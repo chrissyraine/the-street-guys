@@ -9,7 +9,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative w-full h-screen flex items-center justify-center overflow-hidden" style={{
+    <section id="hero" className="relative w-full h-screen flex items-center justify-center overflow-hidden" style={{
       backgroundImage: "url('/hero.jpg')",
       backgroundAttachment: "fixed",
       backgroundSize: "cover",
