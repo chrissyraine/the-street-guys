@@ -22,7 +22,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-md border-b border-[#C41E3A]/30">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-black/40 backdrop-blur-sm border-b border-[#C41E3A]/20">
       <nav className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo/Brand */}
         <button
@@ -56,7 +56,7 @@ export default function Header() {
 
       {/* Mobile Navigation */}
       {mobileMenuOpen && (
-        <div className="md:hidden border-t border-[#C41E3A]/30 bg-black/90">
+        <div className="md:hidden border-t border-[#C41E3A]/20 bg-black/40 backdrop-blur-sm">
           <div className="max-w-6xl mx-auto px-6 py-4 space-y-4">
             {navLinks.map((link) => (
               <button
