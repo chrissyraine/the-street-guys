@@ -1,8 +1,11 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a0a;
+  --foreground: #ffffff;
+  --red-accent: #FF0000;
+  --orange-accent: #F77F00;
+  --white-bright: #ffffff;
 }
 
 @theme inline {
@@ -12,15 +15,29 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Glow effects for CTAs and accents */
+.glow-red {
+  color: var(--red-accent);
+  text-shadow: 0 0 20px rgba(255, 0, 0, 0.6);
+}
+
+.glow-button {
+  background: var(--red-accent);
+  box-shadow: 0 0 30px rgba(255, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+.glow-button:hover {
+  box-shadow: 0 0 50px rgba(255, 0, 0, 0.8), inset 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.border-glow {
+  border-color: var(--red-accent);
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.3) inset;
 }
