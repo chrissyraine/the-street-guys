@@ -53,6 +53,9 @@ export default function Footer() {
         {/* Bottom */}
         <div className="border-t border-gray-800 pt-8 text-center text-gray-500">
           <p>© 2025 The Street Guys. Food Done Right.</p>
+          <p className="mt-4 text-sm">
+            Site by <span className="text-yellow-500">Forever Still Studio</span>
+          </p>
         </div>
       </div>
     </footer>
