@@ -22,40 +22,13 @@ export default function About() {
           </p>
         </div>
 
-        {/* Team bios */}
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
-          <div className="text-center">
-            <img
-              src="/placeholder-adam.jpg"
-              alt="Adam Crispin, Co-Founder and Chef at The Street Guys"
-              className="w-40 h-40 mx-auto bg-gray-800 rounded-lg border-2 border-[#F77F00] mb-6 object-cover"
-            />
-            <h3 className="text-xl font-bold text-white mb-2">Adam Crispin</h3>
-            <p className="text-gray-300 mb-3">Co-Founder & Chef</p>
-            <p className="text-sm text-gray-400">The visionary who showed us what "Food Done Right" truly means. Adam's passion for generous portions and honest food defined our standards.</p>
-          </div>
-
-          <div className="text-center">
-            <img
-              src="/placeholder-ed.jpg"
-              alt="Ed Hopkins, Co-Founder and Operator at The Street Guys"
-              className="w-40 h-40 mx-auto bg-gray-800 rounded-lg border-2 border-[#F77F00] mb-6 object-cover"
-            />
-            <h3 className="text-xl font-bold text-white mb-2">Ed Hopkins</h3>
-            <p className="text-gray-300 mb-3">Co-Founder & Operator</p>
-            <p className="text-sm text-gray-400">Uncle. Carrying forward the vision of feeding families abundantly. Every plate reflects the standard Adam set—no shortcuts, just real food and real care.</p>
-          </div>
-
-          <div className="text-center">
-            <img
-              src="/placeholder-team.jpg"
-              alt="Third team member at The Street Guys"
-              className="w-40 h-40 mx-auto bg-gray-800 rounded-lg border-2 border-[#F77F00] mb-6 object-cover"
-            />
-            <h3 className="text-xl font-bold text-white mb-2">The Third</h3>
-            <p className="text-gray-300 mb-3">Co-Operator & Chef</p>
-            <p className="text-sm text-gray-400">Part of the core team making it happen every Tuesday and Thursday. Committed to the same mission: feeding people right.</p>
-          </div>
+        {/* Team photo */}
+        <div className="mb-16">
+          <img
+            src="/owners.jpg"
+            alt="The Street Guys owners and team - Adam Crispin and Ed Hopkins"
+            className="w-full max-w-2xl mx-auto rounded-lg border-2 border-[#F77F00] object-cover"
+          />
         </div>
 
         {/* Memorial text */}
