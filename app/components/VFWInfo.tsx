@@ -24,16 +24,21 @@ export default function VFWInfo() {
                   Tuesday & Thursday
                 </p>
                 <p className="text-gray-300 text-lg mt-2">
-                  Check in with the VFW for exact times
+                  Noon – 7pm
                 </p>
               </div>
 
               <div>
                 <h3 className="text-lg font-bold text-white mb-3">
-                  Get the address
+                  The Address
                 </h3>
-                <p className="text-gray-300">
-                  VFW Kitchen location details — add real address
+                <p className="text-gray-300 text-lg font-semibold mb-2">
+                  206 Saint John St<br />
+                  Titusville, FL
+                </p>
+                <p className="text-gray-400 text-sm">
+                  Bruce Shorts Post 5958 VFW<br />
+                  No reservations needed. Just show up.
                 </p>
               </div>
             </div>

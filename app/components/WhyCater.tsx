@@ -10,14 +10,14 @@ export default function WhyCater() {
 
   const valueProps = [
     {
-      title: "Your guests go home fed.",
-      subtitle: "Really fed.",
-      description: "Generous portions that matter. No skimping. No pretense.",
+      title: "You don't leave us hungry.",
+      subtitle: "Ever.",
+      description: "Our 18-inch subs feed a family lunch for days. Big portions. Full bellies. That's what we do.",
     },
     {
       title: "Real chefs. Real food.",
       subtitle: "No shortcuts.",
-      description: "Scratch-cooked everything. Every single thing. That's the standard.",
+      description: "All scratch-made. Every single thing. Fresh dough daily. That's the standard Adam set, and that's what Ed delivers.",
     },
     {
       title: "We care like you do.",
@@ -27,7 +27,7 @@ export default function WhyCater() {
     {
       title: "Feed a family of four.",
       subtitle: "Generously. Affordably. With leftovers.",
-      description: "That's the promise. That's the philosophy. That's what we deliver.",
+      description: "That's the promise. That's the philosophy. That's what we deliver. \"What we're known for is being big. It doesn't matter what they get, you don't leave from us hungry.\"",
     },
   ];
 

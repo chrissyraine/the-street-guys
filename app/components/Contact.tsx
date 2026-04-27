@@ -42,6 +42,15 @@ export default function Contact() {
   return (
     <section id="contact" className="w-full bg-black py-20 px-6">
       <div className="max-w-2xl mx-auto">
+        {/* Logo */}
+        <div className="text-center mb-12">
+          <img
+            src="/logo4.png"
+            alt="The Street Guys Logo"
+            className="w-40 h-40 md:w-48 md:h-48 mx-auto mb-8 drop-shadow-lg"
+          />
+        </div>
+
         {/* Section heading */}
         <div className="text-center mb-12">
           <h2 className="text-5xl md:text-6xl font-black text-white mb-4 glow-red">

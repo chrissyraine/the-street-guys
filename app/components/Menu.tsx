@@ -6,17 +6,52 @@ export default function Menu() {
   const [activeTab, setActiveTab] = useState("vfw");
 
   const vfwMenu = [
-    { name: "Burger", price: "$8" },
-    { name: "Corn Casserole", price: "$6" },
-    { name: "Mashed Potatoes", price: "$4" },
-    { name: "Wings", price: "$10" },
+    // Appetizers
+    { name: "Bread Sticks", price: "$6" },
+    { name: "Cheese Bread", price: "$8" },
+    { name: "Pepperoni Log", price: "$1-$5" },
+    // Pizzas
+    { name: "Large Pizza (1 Topping)", price: "$15" },
+    { name: "Pulled Pork Pizza", price: "$20" },
+    { name: "Buffalo Chicken Pizza", price: "$20" },
+    // Subs (18" whole)
+    { name: "Meatball Sub (18\")", price: "$18" },
+    { name: "Italian Sub (18\")", price: "$22" },
+    { name: "Super Italian Sub (18\")", price: "$24" },
+    { name: "Pulled Pork Sub (18\")", price: "$20" },
+    { name: "Buffalo Chicken Sub (18\")", price: "$22" },
+    // Sandwiches
+    { name: "Smoked Sausage Sandwich", price: "$12" },
+    { name: "Cheeseburger", price: "$12" },
+    { name: "Mushroom Swiss Burger", price: "$15" },
+    { name: "Pizza Burger", price: "$15" },
+    // Dinners
+    { name: "Lasagna Dinner", price: "$15" },
+    { name: "Stuffed Shells Dinner", price: "$12" },
+    { name: "Chicken Parmesan Dinner", price: "$15" },
+    { name: "Spaghetti Dinner", price: "$10" },
+    // Other
+    { name: "Calzone", price: "$10-$15" },
+    { name: "Stromboli", price: "$18" },
   ];
 
   const cateringMenu = [
-    { name: "Bourbon Reduction Short Rib", price: "Inquiry" },
-    { name: "Herb-Brined Chicken", price: "Inquiry" },
-    { name: "Composed Vegetable Plate", price: "Inquiry" },
-    { name: "Scratch-Made Sides", price: "Inquiry" },
+    // Appetizers
+    { name: "Bread Sticks (Full Batch)", price: "Call for pricing" },
+    { name: "Cheese Bread (Full Batch)", price: "Call for pricing" },
+    // Pizzas
+    { name: "Large Pizzas (Custom Toppings)", price: "Call for pricing" },
+    // Subs (18" whole - signature item)
+    { name: "Sub Platters (18\" Whole Subs)", price: "Call for pricing" },
+    { name: "Meatball, Italian, Pulled Pork, Buffalo Chicken", price: "Mix & Match" },
+    // Dinners
+    { name: "Lasagna (Full Pan)", price: "Call for pricing" },
+    { name: "Stuffed Shells (Full Pan)", price: "Call for pricing" },
+    { name: "Chicken Parmesan (Full Pan)", price: "Call for pricing" },
+    { name: "Spaghetti with Sauce (Full Pan)", price: "Call for pricing" },
+    // Family packages
+    { name: "Family Feed-a-Crowd Bundle", price: "Custom Quote" },
+    { name: "All Scratch-Made. All Fresh. All Generous.", price: "Book Today" },
   ];
 
   return (
@@ -57,21 +92,35 @@ export default function Menu() {
         </div>
 
         {/* Menu items */}
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {(activeTab === "vfw" ? vfwMenu : cateringMenu).map((item) => (
             <div
               key={item.name}
-              className="bg-black border-l-4 border-[#C41E3A] p-6 rounded"
+              className="bg-black border-l-4 border-[#C41E3A] p-6 rounded hover:border-[#F77F00] transition-colors"
             >
-              <div className="flex justify-between items-center">
-                <h3 className="text-xl font-bold text-white">{item.name}</h3>
-                <span className="text-[#F77F00] font-bold">{item.price}</span>
-              </div>
-              <div className="mt-2 h-32 bg-gray-800 rounded flex items-center justify-center text-gray-600">
-                Food Photo
+              <div className="flex justify-between items-start gap-4">
+                <h3 className="text-lg font-bold text-white flex-1">{item.name}</h3>
+                <span className="text-[#F77F00] font-bold whitespace-nowrap">{item.price}</span>
               </div>
             </div>
           ))}
+        </div>
+
+        {/* Menu note */}
+        <div className="mt-12 text-center">
+          <p className="text-gray-400">
+            All bread and dough made fresh in-house. No shortcuts, no frozen anything.
+          </p>
+          {activeTab === "vfw" && (
+            <p className="text-gray-500 text-sm mt-2">
+              Available Tuesdays & Thursdays at Titusville VFW
+            </p>
+          )}
+          {activeTab === "catering" && (
+            <p className="text-gray-500 text-sm mt-2">
+              Every item can be customized for your event. We scale generously.
+            </p>
+          )}
         </div>
       </div>
     </section>

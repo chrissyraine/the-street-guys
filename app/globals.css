@@ -3,7 +3,7 @@
 :root {
   --background: #0a0a0a;
   --foreground: #ffffff;
-  --red-accent: #FF0000;
+  --red-accent: #600707;
   --orange-accent: #F77F00;
   --white-bright: #ffffff;
 }
@@ -24,20 +24,20 @@ body {
 /* Glow effects for CTAs and accents */
 .glow-red {
   color: var(--red-accent);
-  text-shadow: 0 0 20px rgba(255, 0, 0, 0.6);
+  text-shadow: 0 0 10px rgba(96, 7, 7, 0.4);
 }
 
 .glow-button {
   background: var(--red-accent);
-  box-shadow: 0 0 30px rgba(255, 0, 0, 0.5);
+  box-shadow: 0 0 15px rgba(96, 7, 7, 0.3);
   transition: all 0.3s ease;
 }
 
 .glow-button:hover {
-  box-shadow: 0 0 50px rgba(255, 0, 0, 0.8), inset 0 0 20px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 25px rgba(96, 7, 7, 0.5), inset 0 0 10px rgba(255, 255, 255, 0.1);
 }
 
 .border-glow {
   border-color: var(--red-accent);
-  box-shadow: 0 0 15px rgba(255, 0, 0, 0.3) inset;
+  box-shadow: 0 0 15px rgba(96, 7, 7, 0.3) inset;
 }

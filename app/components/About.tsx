@@ -22,24 +22,43 @@ export default function About() {
           </p>
         </div>
 
-        {/* Team bios placeholder */}
-        <div className="grid md:grid-cols-3 gap-8">
-          {[1, 2, 3].map((member) => (
-            <div key={member} className="text-center">
-              <div className="w-40 h-40 mx-auto bg-gray-800 rounded-lg border-2 border-[#F77F00] mb-6 flex items-center justify-center">
-                <span className="text-gray-600">Photo</span>
-              </div>
-              <h3 className="text-xl font-bold text-white mb-2">Team Member {member}</h3>
-              <p className="text-gray-400">Chef & Co-founder</p>
+        {/* Team bios */}
+        <div className="grid md:grid-cols-3 gap-8 mb-16">
+          <div className="text-center">
+            <div className="w-40 h-40 mx-auto bg-gray-800 rounded-lg border-2 border-[#F77F00] mb-6 flex items-center justify-center">
+              <span className="text-gray-600">Adam</span>
             </div>
-          ))}
+            <h3 className="text-xl font-bold text-white mb-2">Adam Crispin</h3>
+            <p className="text-gray-300 mb-3">Co-Founder & Chef</p>
+            <p className="text-sm text-gray-400">The visionary who showed us what "Food Done Right" truly means. Adam's passion for generous portions and honest food defined our standards.</p>
+          </div>
+
+          <div className="text-center">
+            <div className="w-40 h-40 mx-auto bg-gray-800 rounded-lg border-2 border-[#F77F00] mb-6 flex items-center justify-center">
+              <span className="text-gray-600">Ed</span>
+            </div>
+            <h3 className="text-xl font-bold text-white mb-2">Ed Hopkins</h3>
+            <p className="text-gray-300 mb-3">Co-Founder & Operator</p>
+            <p className="text-sm text-gray-400">Nephew to Adam. Carrying forward the vision of feeding families abundantly. Every plate reflects the standard Adam set—no shortcuts, just real food and real care.</p>
+          </div>
+
+          <div className="text-center">
+            <div className="w-40 h-40 mx-auto bg-gray-800 rounded-lg border-2 border-[#F77F00] mb-6 flex items-center justify-center">
+              <span className="text-gray-600">The Team</span>
+            </div>
+            <h3 className="text-xl font-bold text-white mb-2">The Third</h3>
+            <p className="text-gray-300 mb-3">Co-Operator & Chef</p>
+            <p className="text-sm text-gray-400">Part of the core team making it happen every Tuesday and Thursday. Committed to the same mission: feeding people right.</p>
+          </div>
         </div>
 
         {/* Memorial text */}
-        <div className="mt-16 text-center">
-          <p className="text-lg text-gray-300 italic">
-            One of the men who built this vision left us last year.
-            Every dish we make honors the way he showed us what food done right means.
+        <div className="mt-8 text-center border-t border-gray-800 pt-8">
+          <p className="text-lg text-gray-300 italic mb-4">
+            "Adam showed us what 'done right' really means. We carry that forward in every plate we serve."
+          </p>
+          <p className="text-gray-400">
+            Started March 2024. Uncle and nephew. One mission. The Street Guys lives on.
           </p>
         </div>
       </div>
