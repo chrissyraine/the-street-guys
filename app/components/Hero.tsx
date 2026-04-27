@@ -22,8 +22,8 @@ export default function Hero() {
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <img
           src="/logo3.png"
-          alt="The Street Guys Logo"
-          className="w-32 h-32 md:w-48 md:h-48 mx-auto mb-8 drop-shadow-lg"
+          alt="The Street Guys - Premium Catering & VFW Dining Logo"
+          className="w-48 h-48 md:w-64 md:h-64 mx-auto mb-8 drop-shadow-lg"
         />
         <h1 className="text-6xl md:text-7xl font-black text-white mb-6 glow-red">
           Food Done Right

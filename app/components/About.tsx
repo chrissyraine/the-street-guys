@@ -5,7 +5,7 @@ export default function About() {
         {/* Section heading */}
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-black text-white mb-4 glow-red">
-            Three Guys. One Mission.
+            The Street Guys Story
           </h2>
           <p className="text-xl text-gray-300">
             Feed people right.
@@ -25,27 +25,33 @@ export default function About() {
         {/* Team bios */}
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           <div className="text-center">
-            <div className="w-40 h-40 mx-auto bg-gray-800 rounded-lg border-2 border-[#F77F00] mb-6 flex items-center justify-center">
-              <span className="text-gray-600">Adam</span>
-            </div>
+            <img
+              src="/placeholder-adam.jpg"
+              alt="Adam Crispin, Co-Founder and Chef at The Street Guys"
+              className="w-40 h-40 mx-auto bg-gray-800 rounded-lg border-2 border-[#F77F00] mb-6 object-cover"
+            />
             <h3 className="text-xl font-bold text-white mb-2">Adam Crispin</h3>
             <p className="text-gray-300 mb-3">Co-Founder & Chef</p>
             <p className="text-sm text-gray-400">The visionary who showed us what "Food Done Right" truly means. Adam's passion for generous portions and honest food defined our standards.</p>
           </div>
 
           <div className="text-center">
-            <div className="w-40 h-40 mx-auto bg-gray-800 rounded-lg border-2 border-[#F77F00] mb-6 flex items-center justify-center">
-              <span className="text-gray-600">Ed</span>
-            </div>
+            <img
+              src="/placeholder-ed.jpg"
+              alt="Ed Hopkins, Co-Founder and Operator at The Street Guys"
+              className="w-40 h-40 mx-auto bg-gray-800 rounded-lg border-2 border-[#F77F00] mb-6 object-cover"
+            />
             <h3 className="text-xl font-bold text-white mb-2">Ed Hopkins</h3>
             <p className="text-gray-300 mb-3">Co-Founder & Operator</p>
             <p className="text-sm text-gray-400">Uncle. Carrying forward the vision of feeding families abundantly. Every plate reflects the standard Adam set—no shortcuts, just real food and real care.</p>
           </div>
 
           <div className="text-center">
-            <div className="w-40 h-40 mx-auto bg-gray-800 rounded-lg border-2 border-[#F77F00] mb-6 flex items-center justify-center">
-              <span className="text-gray-600">The Team</span>
-            </div>
+            <img
+              src="/placeholder-team.jpg"
+              alt="Third team member at The Street Guys"
+              className="w-40 h-40 mx-auto bg-gray-800 rounded-lg border-2 border-[#F77F00] mb-6 object-cover"
+            />
             <h3 className="text-xl font-bold text-white mb-2">The Third</h3>
             <p className="text-gray-300 mb-3">Co-Operator & Chef</p>
             <p className="text-sm text-gray-400">Part of the core team making it happen every Tuesday and Thursday. Committed to the same mission: feeding people right.</p>

@@ -46,15 +46,15 @@ export default function Contact() {
         <div className="text-center mb-12">
           <img
             src="/logo4.png"
-            alt="The Street Guys Logo"
-            className="w-40 h-40 md:w-48 md:h-48 mx-auto mb-8 drop-shadow-lg"
+            alt="The Street Guys - Food Done Right Logo"
+            className="w-48 h-48 md:w-56 md:h-56 mx-auto mb-8 drop-shadow-lg"
           />
         </div>
 
         {/* Section heading */}
         <div className="text-center mb-12">
           <h2 className="text-5xl md:text-6xl font-black text-white mb-4 glow-red">
-            Let's Cook
+            Book Your Catering Event
           </h2>
           <p className="text-xl text-gray-300">
             Tell us about your event. We'll take care of the rest.

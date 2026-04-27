@@ -46,10 +46,10 @@ export default function VFWInfo() {
 
           {/* Map placeholder */}
           <div>
-            <div className="w-full h-96 bg-black border-2 border-[#C41E3A] rounded-lg flex items-center justify-center">
+            <div className="w-full h-96 bg-black border-2 border-[#C41E3A] rounded-lg flex items-center justify-center" role="region" aria-label="Location map">
               <div className="text-center">
-                <p className="text-gray-500 text-lg mb-4">Map Embed</p>
-                <p className="text-gray-600">Google Maps or address details</p>
+                <p className="text-gray-500 text-lg mb-4">📍 VFW Location</p>
+                <p className="text-gray-400">206 Saint John St, Titusville, FL<br/><span className="text-sm">Bruce Shorts Post 5958</span></p>
               </div>
             </div>
           </div>
