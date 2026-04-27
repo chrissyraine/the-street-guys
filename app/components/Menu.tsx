@@ -55,7 +55,7 @@ export default function Menu() {
   ];
 
   return (
-    <section className="w-full bg-gray-950 py-20 px-6">
+    <section className="w-full bg-transparent py-20 px-6">
       <div className="max-w-6xl mx-auto">
         {/* Section heading */}
         <div className="text-center mb-16">
@@ -96,7 +96,7 @@ export default function Menu() {
           {(activeTab === "vfw" ? vfwMenu : cateringMenu).map((item) => (
             <div
               key={item.name}
-              className="bg-black border-l-4 border-[#C41E3A] p-6 rounded hover:border-[#F77F00] transition-colors"
+              className="bg-black border-l-4 border-[#FF0000] p-6 rounded hover:border-[#FF0000] transition-colors"
             >
               <div className="flex justify-between items-start gap-4">
                 <h3 className="text-lg font-bold text-white flex-1">{item.name}</h3>
