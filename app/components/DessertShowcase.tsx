@@ -6,12 +6,10 @@ export default function DessertShowcase() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const desserts = [
-    { id: 1, src: '/desserts/dessert-1.jpg', alt: 'Layered cake with fruit' },
-    { id: 2, src: '/desserts/dessert-2.jpg', alt: 'Chocolate dessert' },
-    { id: 3, src: '/desserts/dessert-3.jpg', alt: 'Cheesecake creation' },
-    { id: 4, src: '/desserts/dessert-4.jpg', alt: 'Fruit tart' },
-    { id: 5, src: '/desserts/dessert-5.jpg', alt: 'Decorated cake' },
-    { id: 6, src: '/desserts/dessert-6.jpg', alt: 'Specialty dessert' },
+    { id: 1, src: '/desserts/blueberrychzcake.jpg', alt: 'Blueberry chocolate cake' },
+    { id: 2, src: '/desserts/bunnychzcake.jpg', alt: 'Bunny chocolate cake' },
+    { id: 3, src: '/desserts/pie.jpg', alt: 'Fresh pie' },
+    { id: 4, src: '/desserts/strawberry.jpg', alt: 'Strawberry dessert' },
   ];
 
   const goToPrevious = () => {
