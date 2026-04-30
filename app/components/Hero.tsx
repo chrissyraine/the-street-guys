@@ -22,11 +22,6 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
-        <img
-          src="/logo3.png"
-          alt="The Street Guys - Premium Catering & VFW Dining Logo"
-          className="w-48 h-48 md:w-64 md:h-64 mx-auto mb-8 drop-shadow-lg"
-        />
         <h1 className="text-6xl md:text-7xl font-black text-white mb-6 glow-red">
           Food Done Right
         </h1>
@@ -46,7 +41,7 @@ export default function Hero() {
 
           <button
             onClick={() => scrollToSection('vfw-info')}
-            className="px-10 py-4 text-white font-bold text-lg rounded-lg border-2 border-[#C41E3A] glow-red hover:bg-[#C41E3A] hover:bg-opacity-10 transition-all cursor-pointer"
+            className="px-10 py-4 text-white font-bold text-lg rounded-lg border-2 border-[#FF0000] glow-red hover:bg-[#FF0000] hover:bg-opacity-10 transition-all cursor-pointer"
           >
             Find Us Tues/Thurs
           </button>
@@ -56,7 +51,7 @@ export default function Hero() {
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <svg
-          className="w-6 h-6 text-[#C41E3A]"
+          className="w-6 h-6 text-[#FF0000]"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
