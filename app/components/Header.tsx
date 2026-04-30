@@ -27,9 +27,13 @@ export default function Header() {
         {/* Logo/Brand */}
         <button
           onClick={() => scrollToSection('hero')}
-          className="text-white font-black text-lg md:text-xl glow-red cursor-pointer hover:opacity-80 transition-opacity"
+          className="cursor-pointer hover:opacity-80 transition-opacity"
         >
-          The Street Guys
+          <img
+            src="/logo3.png"
+            alt="The Street Guys"
+            className="h-12 w-12 md:h-14 md:w-14"
+          />
         </button>
 
         {/* Desktop Navigation */}
