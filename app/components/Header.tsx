@@ -32,7 +32,7 @@ export default function Header() {
           <img
             src="/logo3.png"
             alt="The Street Guys"
-            className="h-36 w-36 md:h-48 md:w-48"
+            className="h-24 w-24 md:h-32 md:w-32"
           />
         </button>
 
