@@ -13,8 +13,8 @@ export default function About() {
         </div>
 
         {/* Core philosophy */}
-        <div className="bg-gray-950 border-2 border-[#C41E3A] border-glow rounded-lg p-10 mb-16">
-          <p className="text-xl text-gray-100 leading-relaxed">
+        <div className="bg-gray-950 border-2 border-[#FF0000] border-glow rounded-lg p-6 md:p-10 mb-16">
+          <p className="text-base md:text-xl text-gray-100 leading-relaxed">
             "Food Done Right" isn't a slogan—it's a promise. It means feeding a family of four abundantly.
             It means generous portions that fill you up and send you home with leftovers. It means scratch cooking,
             no shortcuts, real care on every plate. One of our founders taught us what that really looks like.
@@ -27,7 +27,7 @@ export default function About() {
           <img
             src="/owners.jpg"
             alt="The Street Guys owners and team - Adam Crispin and Ed Hopkins"
-            className="w-full max-w-2xl mx-auto rounded-lg border-2 border-[#F77F00] object-cover"
+            className="w-full max-w-2xl mx-auto rounded-lg border-2 border-[#FF0000] object-cover"
           />
         </div>
 

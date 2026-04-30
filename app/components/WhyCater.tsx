@@ -46,12 +46,12 @@ export default function WhyCater() {
           {valueProps.map((prop, idx) => (
             <div
               key={idx}
-              className="bg-gray-950 border-l-4 border-[#F77F00] p-8 rounded-lg hover:border-[#E63946] transition-colors"
+              className="bg-gray-950 border-l-4 border-[#FF0000] p-6 md:p-8 rounded-lg hover:border-[#FF0000] transition-colors"
             >
-              <h3 className="text-2xl font-black text-white mb-2 glow-red">
+              <h3 className="text-xl md:text-2xl font-black text-white mb-2 glow-red">
                 {prop.title}
               </h3>
-              <p className="text-[#F77F00] font-bold mb-4">{prop.subtitle}</p>
+              <p className="text-[#FF0000] font-bold mb-4 text-sm md:text-base">{prop.subtitle}</p>
               <p className="text-gray-300">{prop.description}</p>
             </div>
           ))}

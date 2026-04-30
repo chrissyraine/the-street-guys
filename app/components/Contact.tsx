@@ -47,7 +47,7 @@ export default function Contact() {
           <img
             src="/logo4.png"
             alt="The Street Guys - Food Done Right Logo"
-            className="w-48 h-48 md:w-56 md:h-56 mx-auto mb-8 drop-shadow-lg"
+            className="w-32 h-32 md:w-48 md:h-48 lg:w-56 lg:h-56 mx-auto mb-8 drop-shadow-lg"
           />
         </div>
 
@@ -63,9 +63,9 @@ export default function Contact() {
 
         {/* Form */}
         {!submitted ? (
-          <form onSubmit={handleSubmit} className="space-y-6">
+          <form onSubmit={handleSubmit} className="space-y-4 md:space-y-6">
             {/* Name and Email */}
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
               <div>
                 <label className="block text-white font-bold mb-2">Name</label>
                 <input
@@ -74,7 +74,7 @@ export default function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full bg-gray-950 border-2 border-gray-700 rounded px-4 py-3 text-white focus:border-[#C41E3A] focus:outline-none transition-colors"
+                  className="w-full bg-gray-950 border-2 border-gray-700 rounded px-4 py-3 text-white focus:border-[#FF0000] focus:outline-none transition-colors"
                   placeholder="Your name"
                 />
               </div>
@@ -86,7 +86,7 @@ export default function Contact() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full bg-gray-950 border-2 border-gray-700 rounded px-4 py-3 text-white focus:border-[#C41E3A] focus:outline-none transition-colors"
+                  className="w-full bg-gray-950 border-2 border-gray-700 rounded px-4 py-3 text-white focus:border-[#FF0000] focus:outline-none transition-colors"
                   placeholder="your@email.com"
                 />
               </div>
@@ -101,13 +101,13 @@ export default function Contact() {
                 value={formData.phone}
                 onChange={handleChange}
                 required
-                className="w-full bg-gray-950 border-2 border-gray-700 rounded px-4 py-3 text-white focus:border-[#C41E3A] focus:outline-none transition-colors"
+                className="w-full bg-gray-950 border-2 border-gray-700 rounded px-4 py-3 text-white focus:border-[#FF0000] focus:outline-none transition-colors"
                 placeholder="(555) 123-4567"
               />
             </div>
 
             {/* Event Date and Party Size */}
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
               <div>
                 <label className="block text-white font-bold mb-2">Event Date</label>
                 <input
@@ -116,7 +116,7 @@ export default function Contact() {
                   value={formData.eventDate}
                   onChange={handleChange}
                   required
-                  className="w-full bg-gray-950 border-2 border-gray-700 rounded px-4 py-3 text-white focus:border-[#C41E3A] focus:outline-none transition-colors"
+                  className="w-full bg-gray-950 border-2 border-gray-700 rounded px-4 py-3 text-white focus:border-[#FF0000] focus:outline-none transition-colors"
                 />
               </div>
               <div>
@@ -127,7 +127,7 @@ export default function Contact() {
                   value={formData.partySize}
                   onChange={handleChange}
                   required
-                  className="w-full bg-gray-950 border-2 border-gray-700 rounded px-4 py-3 text-white focus:border-[#C41E3A] focus:outline-none transition-colors"
+                  className="w-full bg-gray-950 border-2 border-gray-700 rounded px-4 py-3 text-white focus:border-[#FF0000] focus:outline-none transition-colors"
                   placeholder="Number of guests"
                   min="1"
                 />
@@ -142,7 +142,7 @@ export default function Contact() {
                 value={formData.eventType}
                 onChange={handleChange}
                 required
-                className="w-full bg-gray-950 border-2 border-gray-700 rounded px-4 py-3 text-white focus:border-[#C41E3A] focus:outline-none transition-colors"
+                className="w-full bg-gray-950 border-2 border-gray-700 rounded px-4 py-3 text-white focus:border-[#FF0000] focus:outline-none transition-colors"
               >
                 <option value="">Select an event type</option>
                 <option value="wedding">Wedding</option>
@@ -160,8 +160,8 @@ export default function Contact() {
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
-                rows={5}
-                className="w-full bg-gray-950 border-2 border-gray-700 rounded px-4 py-3 text-white focus:border-[#C41E3A] focus:outline-none transition-colors resize-none"
+                rows={4}
+                className="w-full bg-gray-950 border-2 border-gray-700 rounded px-4 py-3 text-white focus:border-[#FF0000] focus:outline-none transition-colors resize-none"
                 placeholder="Any dietary needs, menu preferences, or special requests?"
               />
             </div>
@@ -181,7 +181,7 @@ export default function Contact() {
         ) : (
           <div className="text-center py-12">
             <div className="mb-6">
-              <div className="inline-block w-16 h-16 bg-[#C41E3A] rounded-full flex items-center justify-center mb-4">
+              <div className="inline-block w-16 h-16 bg-[#FF0000] rounded-full flex items-center justify-center mb-4">
                 <span className="text-3xl text-white">✓</span>
               </div>
             </div>

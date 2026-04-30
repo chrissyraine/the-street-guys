@@ -71,20 +71,20 @@ export default function Menu() {
         <div className="flex gap-6 justify-center mb-12">
           <button
             onClick={() => setActiveTab("vfw")}
-            className={`px-8 py-3 font-bold text-lg rounded-lg transition-all ${
+            className={`px-6 md:px-8 py-2 md:py-3 font-bold text-sm md:text-lg rounded-lg transition-all ${
               activeTab === "vfw"
                 ? "glow-button text-white"
-                : "text-gray-400 border-2 border-gray-700 hover:border-[#C41E3A]"
+                : "text-gray-400 border-2 border-gray-700 hover:border-[#FF0000]"
             }`}
           >
             VFW Favorites
           </button>
           <button
             onClick={() => setActiveTab("catering")}
-            className={`px-8 py-3 font-bold text-lg rounded-lg transition-all ${
+            className={`px-6 md:px-8 py-2 md:py-3 font-bold text-sm md:text-lg rounded-lg transition-all ${
               activeTab === "catering"
                 ? "glow-button text-white"
-                : "text-gray-400 border-2 border-gray-700 hover:border-[#C41E3A]"
+                : "text-gray-400 border-2 border-gray-700 hover:border-[#FF0000]"
             }`}
           >
             Catering Specialties
@@ -92,11 +92,11 @@ export default function Menu() {
         </div>
 
         {/* Menu items */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
           {(activeTab === "vfw" ? vfwMenu : cateringMenu).map((item) => (
             <div
               key={item.name}
-              className="bg-black border-l-4 border-[#FF0000] p-6 rounded hover:border-[#FF0000] transition-colors"
+              className="bg-black border-l-4 border-[#FF0000] p-4 md:p-6 rounded hover:border-[#FF0000] transition-colors"
             >
               <div className="flex justify-between items-start gap-4">
                 <h3 className="text-lg font-bold text-white flex-1">{item.name}</h3>

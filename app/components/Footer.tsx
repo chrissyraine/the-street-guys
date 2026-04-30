@@ -9,9 +9,9 @@ export default function Footer() {
   };
 
   return (
-    <footer className="w-full bg-black border-t-2 border-[#C41E3A] py-16 px-6">
+    <footer className="w-full bg-black border-t-2 border-[#FF0000] py-12 md:py-16 px-6">
       <div className="max-w-6xl mx-auto">
-        <div className="grid md:grid-cols-3 gap-12 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 mb-12">
           {/* Brand */}
           <div>
             <h3 className="text-2xl font-black text-white mb-4 glow-red">
