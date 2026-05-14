@@ -34,7 +34,7 @@ export default function VFWInfo() {
                 </h3>
                 <p className="text-gray-300 text-lg font-semibold mb-2">
                   206 Saint John St<br />
-                  Titusville, FL
+                  Titusville, PA
                 </p>
                 <p className="text-gray-400 text-sm">
                   Bruce Shorts Post 5958 VFW<br />
@@ -49,7 +49,7 @@ export default function VFWInfo() {
             <div className="w-full h-64 md:h-96 bg-black border-2 border-[#FF0000] rounded-lg flex items-center justify-center mt-8 md:mt-0" role="region" aria-label="Location map">
               <div className="text-center">
                 <p className="text-gray-500 text-lg mb-4">📍 VFW Location</p>
-                <p className="text-gray-400">206 Saint John St, Titusville, FL<br/><span className="text-sm">Bruce Shorts Post 5958</span></p>
+                <p className="text-gray-400">206 Saint John St, Titusville, PA<br/><span className="text-sm">Bruce Shorts Post 5958</span></p>
               </div>
             </div>
           </div>

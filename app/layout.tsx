@@ -59,7 +59,7 @@ const structuredData = {
     "@type": "PostalAddress",
     "streetAddress": "206 Saint John St",
     "addressLocality": "Titusville",
-    "addressRegion": "FL",
+    "addressRegion": "PA",
     "postalCode": "32796",
     "addressCountry": "US",
   },
