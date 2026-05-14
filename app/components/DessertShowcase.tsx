@@ -114,7 +114,7 @@ export default function DessertShowcase() {
             Cheesecake. Chocolate. Fruit tarts. Layered creations. All made fresh, all generous portions.
           </p>
           <p className="text-gray-400 mt-3">
-            Available for catering events or special orders at the VFW.
+            Available for catering events and special orders.
           </p>
         </div>
       </div>

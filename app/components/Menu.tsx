@@ -3,9 +3,9 @@
 import { useState } from "react";
 
 export default function Menu() {
-  const [activeTab, setActiveTab] = useState("vfw");
+  const [activeTab, setActiveTab] = useState("alacarte");
 
-  const vfwMenu = [
+  const alaCarteMenu = [
     // Appetizers
     { name: "Bread Sticks", price: "$6" },
     { name: "Cheese Bread", price: "$8" },
@@ -70,14 +70,14 @@ export default function Menu() {
         {/* Tabs */}
         <div className="flex gap-6 justify-center mb-12">
           <button
-            onClick={() => setActiveTab("vfw")}
+            onClick={() => setActiveTab("alacarte")}
             className={`px-6 md:px-8 py-2 md:py-3 font-bold text-sm md:text-lg rounded-lg transition-all ${
-              activeTab === "vfw"
+              activeTab === "alacarte"
                 ? "glow-button text-white"
                 : "text-gray-400 border-2 border-gray-700 hover:border-[#FF0000]"
             }`}
           >
-            VFW Favorites
+            À la Carte
           </button>
           <button
             onClick={() => setActiveTab("catering")}
@@ -93,7 +93,7 @@ export default function Menu() {
 
         {/* Menu items */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-          {(activeTab === "vfw" ? vfwMenu : cateringMenu).map((item) => (
+          {(activeTab === "alacarte" ? alaCarteMenu : cateringMenu).map((item) => (
             <div
               key={item.name}
               className="bg-black border-l-4 border-[#FF0000] p-4 md:p-6 rounded hover:border-[#FF0000] transition-colors"
@@ -111,11 +111,6 @@ export default function Menu() {
           <p className="text-gray-400">
             All bread and dough made fresh in-house. No shortcuts, no frozen anything.
           </p>
-          {activeTab === "vfw" && (
-            <p className="text-gray-500 text-sm mt-2">
-              Available Tuesdays & Thursdays at Titusville VFW
-            </p>
-          )}
           {activeTab === "catering" && (
             <p className="text-gray-500 text-sm mt-2">
               Every item can be customized for your event. We scale generously.

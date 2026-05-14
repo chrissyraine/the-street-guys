@@ -13,13 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "The Street Guys | Catering & VFW Food in Titusville",
-  description: "Premium catering and VFW dining in Titusville. Food Done Right: generous portions, scratch-cooked, no shortcuts. Book your event or visit us Tuesday & Thursday.",
-  keywords: "catering Titusville, event catering, food delivery, VFW food, homemade pizza, subs, pasta, Titusville dining",
+  title: "The Street Guys | Catering in Titusville, PA",
+  description: "Premium catering in Titusville, PA. Food Done Right: generous portions, scratch-cooked, no shortcuts. Book your event today.",
+  keywords: "catering Titusville, event catering, food delivery, homemade pizza, subs, pasta, catering Pennsylvania",
   authors: [{ name: "The Street Guys" }],
   openGraph: {
     title: "The Street Guys | Food Done Right",
-    description: "Premium catering & VFW dining. Feed a family. Feed them well. Send them home satisfied.",
+    description: "Premium catering. Feed a family. Feed them well. Send them home satisfied.",
     url: "https://thestreetguys.com",
     siteName: "The Street Guys",
     images: [
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "The Street Guys | Food Done Right",
-    description: "Premium catering & VFW dining in Titusville. Book your event today.",
+    description: "Premium catering in Titusville, PA. Book your event today.",
     images: ["/logo3.png"],
   },
   robots: {
@@ -52,31 +52,9 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "The Street Guys",
-  "description": "Premium catering and VFW dining. Food Done Right: generous portions, scratch-cooked, no shortcuts.",
+  "description": "Premium catering. Food Done Right: generous portions, scratch-cooked, no shortcuts.",
   "url": "https://thestreetguys.com",
   "image": "https://thestreetguys.com/logo3.png",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "206 Saint John St",
-    "addressLocality": "Titusville",
-    "addressRegion": "PA",
-    "postalCode": "16354",
-    "addressCountry": "US",
-  },
-  "openingHoursSpecification": [
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": "Tuesday",
-      "opens": "12:00",
-      "closes": "19:00",
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": "Thursday",
-      "opens": "12:00",
-      "closes": "19:00",
-    },
-  ],
   "priceRange": "$$",
   "servesCuisine": ["Italian", "American"],
   "foundingDate": "2024-03",

@@ -5,7 +5,6 @@ import Menu from "./components/Menu";
 import DessertShowcase from "./components/DessertShowcase";
 import WhyCater from "./components/WhyCater";
 import Contact from "./components/Contact";
-import VFWInfo from "./components/VFWInfo";
 import Footer from "./components/Footer";
 
 export default function Home() {
@@ -18,7 +17,6 @@ export default function Home() {
       <DessertShowcase />
       <WhyCater />
       <Contact />
-      <VFWInfo />
       <Footer />
     </main>
   );

@@ -40,10 +40,10 @@ export default function Hero() {
           </button>
 
           <button
-            onClick={() => scrollToSection('vfw-info')}
+            onClick={() => scrollToSection('why-cater')}
             className="px-10 py-4 text-white font-bold text-lg rounded-lg border-2 border-[#FF0000] glow-red hover:bg-[#FF0000] hover:bg-opacity-10 transition-all cursor-pointer"
           >
-            Find Us Tues/Thurs
+            See Catering Options
           </button>
         </div>
       </div>

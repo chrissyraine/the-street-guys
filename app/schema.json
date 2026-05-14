@@ -2,38 +2,16 @@
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "The Street Guys",
-  "description": "Premium catering and VFW dining. Food Done Right: generous portions, scratch-cooked, no shortcuts.",
+  "description": "Premium catering. Food Done Right: generous portions, scratch-cooked, no shortcuts.",
   "url": "https://thestreetguys.com",
   "image": "https://thestreetguys.com/logo3.png",
   "telephone": "+1-XXX-XXX-XXXX",
   "email": "contact@thestreetguys.com",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "206 Saint John St",
-    "addressLocality": "Titusville",
-    "addressRegion": "PA",
-    "postalCode": "16354",
-    "addressCountry": "US"
-  },
   "geo": {
     "@type": "GeoCoordinates",
     "latitude": "41.6270",
     "longitude": "-79.6784"
   },
-  "openingHoursSpecification": [
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": "Tuesday",
-      "opens": "12:00",
-      "closes": "19:00"
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": "Thursday",
-      "opens": "12:00",
-      "closes": "19:00"
-    }
-  ],
   "sameAs": [
     "https://www.facebook.com/thestreetguys"
   ],

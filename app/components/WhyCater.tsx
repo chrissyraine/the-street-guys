@@ -22,7 +22,7 @@ export default function WhyCater() {
     {
       title: "We care like you do.",
       subtitle: "Same care, every time.",
-      description: "Whether it's a VFW Tuesday or your wedding, food done right is the only way we work.",
+      description: "Whether it's a backyard cookout or your wedding, food done right is the only way we work.",
     },
     {
       title: "Feed a family of four.",

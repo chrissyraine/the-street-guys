@@ -18,7 +18,6 @@ export default function Header() {
     { label: 'Menu', id: 'menu' },
     { label: 'Why Us', id: 'why-cater' },
     { label: 'Book', id: 'contact' },
-    { label: 'Find Us', id: 'vfw-info' },
   ];
 
   return (
