@@ -12,13 +12,13 @@
     "streetAddress": "206 Saint John St",
     "addressLocality": "Titusville",
     "addressRegion": "PA",
-    "postalCode": "32796",
+    "postalCode": "16354",
     "addressCountry": "US"
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": "28.5891",
-    "longitude": "-80.8068"
+    "latitude": "41.6270",
+    "longitude": "-79.6784"
   },
   "openingHoursSpecification": [
     {

@@ -60,7 +60,7 @@ const structuredData = {
     "streetAddress": "206 Saint John St",
     "addressLocality": "Titusville",
     "addressRegion": "PA",
-    "postalCode": "32796",
+    "postalCode": "16354",
     "addressCountry": "US",
   },
   "openingHoursSpecification": [
